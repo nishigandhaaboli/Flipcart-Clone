@@ -1,0 +1,44 @@
+#home{
+    /* background-color: blue; */
+    color:white;
+}
+#home>button{
+    width: 200px;
+    height: 35px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #fb641b;
+}
+#images{
+    /* display: flex; */
+    border: 1px solid rgb(183, 180, 180);
+    height: 120px;
+}
+#innerImages{
+    justify-content: space-between;
+    display: flex;
+    width: 85%;
+    height: 120px;
+    margin: auto;
+}
+#innerImages>div{
+    margin-top: 15px;
+
+}
+#innerImages>div>img{
+    width: 70px;
+}
+#innerImages>div>div>button{
+    border: none;
+    background-color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+#innerImages>div>div>button:hover{
+    color: blue;
+    scale: 0.9;
+}
+

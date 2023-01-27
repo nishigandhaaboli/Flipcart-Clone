@@ -1,0 +1,37 @@
+#screen1{
+    background-color: blue;
+    height: 56px;
+    /* position: fixed; */
+}
+#navbar{
+    /* background-color: blue; */
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+}
+#navbar>div>img{
+    height: 25px;
+    margin-top: 10px;
+}
+#navbar>div>input{
+    margin-top: 10px;
+    height: 30px;
+    width: 500px;
+    font-size: 15px;
+}
+#navbar>div>button{
+    margin-top: 20px;
+    font-size: 18px;
+    background-color: blue;
+    color: white;
+    font-weight: 600;
+    border: none;
+}
+#navbar>div>h3{
+    color: white;
+}
+
+
+
+
